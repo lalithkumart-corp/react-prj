@@ -1,0 +1,53 @@
+[
+    {
+        "identifier": "acBit01",
+        "name": "Bitg",
+        "accountPrefix": "MF1V",
+        "accountNo": "2451145234512456",
+        "currencyNotation": "USD",
+        "currencySymbol": "$",
+        "platform": "ETH",
+        "todayRevenue": 1000,              
+        "volume": 50120,
+        "Balance": 2245,
+        "BalanceConverted": 394512,
+        "isActive": true,
+        "chartData": [
+            {"name": "08 Oct", "amount": 590},
+            {"name": "10 Oct", "amount": 1200},
+            {"name": "12 Oct", "amount": 2600},
+            {"name": "14 Oct", "amount": 1000},
+            {"name": "16 Oct", "amount": 3780},
+            {"name": "18 Oct", "amount": 1890},
+            {"name": "20 Oct", "amount": 2390},
+            {"name": "22 Oct", "amount": 3490},
+            {"name": "24 Oct", "amount": 490},
+            {"name": "26 Oct", "amount": 490},
+            {"name": "28 Oct", "amount": 1490},
+            {"name": "30 Oct", "amount": 3490}            
+        ]
+    },
+    {
+        "identifier": "acBit02",
+        "name": "Bitrex",
+        "accountPrefix": "CHLv",
+        "accountNo": "4562145789321458",
+        "currencyNotation": "USD",
+        "currencySymbol":"$",
+        "platform": "BTC",
+        "todayRevenue": 4150,
+        "volume": 78540,
+        "Balance": 854,
+        "BalanceConverted": 55412,
+        "isActive": false,
+        "chartData": [
+            {"name": "2 Dec", "amount": 1000},
+            {"name": "7 Dec", "amount": 2000},
+            {"name": "12 Dec", "amount": 6000},
+            {"name": "17 Dec", "amount": 1780},
+            {"name": "22 Dec", "amount": 8890},
+            {"name": "27 Dec", "amount": 5390},
+            {"name": "32 Dec", "amount": 1490}
+        ]
+    }
+]

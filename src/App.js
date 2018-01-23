@@ -11,7 +11,9 @@ import Header from './components/header/Header';
 import Toolbar from './components/toolbar/Toolbar';
 import Myhome from './components/home/Myhome';
 import Accounts from './components/accounts/Accounts';
+import FormComponent from './components/demo/FormComponent';
 import './App.css';
+//import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   constructor(props){
@@ -21,20 +23,21 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
-            <Header />
-        </header>
-        <div class='toolbar-container'>
-            <Toolbar />
-        </div>
-        <div class='page-content'>
-            <Router>
-              <Switch>
+        <Router>
+          <div>
+            <header>
+                <Header />
+            </header>
+            <div className='toolbar-container'>
+                <Toolbar />
+            </div>
+            <div className='page-content'>
                   <Route exact path='/' component={Myhome} />
                   <Route path='/accounts' component={Accounts} />
-                </Switch>
-            </Router>
-        </div>
+                  <Route path='/demo/formcomp' component={FormComponent} />
+            </div>
+          </div>
+        </Router>
       </div>
     );
   }

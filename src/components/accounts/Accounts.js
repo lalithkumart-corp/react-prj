@@ -5,7 +5,6 @@
  */
 import React, { Component } from 'react';
 import './accounts.css';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import _ from 'lodash';
 import axios from 'axios';
 
@@ -55,14 +54,14 @@ class Accounts extends Component{
   render(){
     var options = this.state;
     return(
-      <div class='row'>
-        <div class='col-sm-6'>
+      <div className='row'>
+        <div className='col-sm-6'>
           <Statistics {...this.state}  getCurrentData= {this.getCurrentData}/>
         </div>
-        <div class='col-sm-6'>
+        <div className='col-sm-6'>
           <MyAccounts {...this.state} switchData={this.switchData} />
         </div>
-        <div class='col-sm-12'>
+        <div className='col-sm-12'>
           <ChartView {...this.state} getCurrentData= {this.getCurrentData}/>
         </div>
       </div>      

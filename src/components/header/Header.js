@@ -10,11 +10,10 @@ import './header.css';
 class Header extends Component {
   render() {
     return (
-      <div class='app-header'>
-          <img class='avatar-container' src='/images/default-avatar.png'>
-
+      <div className='app-header'>
+          <img className='avatar-container' src='/images/default-avatar.png'>
           </img>
-          <div class='breadcrumb-section'>
+          <div className='breadcrumb-section'>
               <h4>FINANCIAL ENGINE</h4>
            </div>
       </div>

@@ -4,17 +4,17 @@
   "private": true,
   "dependencies": {
     "axios": "^0.17.1",
-    "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.4",
     "react": "^16.2.0",
+    "react-bootstrap": "^0.32.0",
     "react-dom": "^16.2.0",
     "react-highcharts": "^15.0.0",
+    "react-input-enhancements": "^0.7.4",
     "react-responsive-carousel": "^3.1.30",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
-    "recharts": "^1.0.0-beta.6",
-    "simple-react-bootstrap": "^0.2.7"
+    "recharts": "^1.0.0-beta.6"
   },
   "scripts": {
     "start": "react-scripts start",

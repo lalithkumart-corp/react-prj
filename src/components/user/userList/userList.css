@@ -1,0 +1,14 @@
+.user-list-container{
+    border-right: 1px solid;
+}
+.user-list-container .a-card{
+    padding: 10px;
+    cursor: pointer;
+}
+.user-list-container .a-card:hover,
+.user-list-container .a-card:focus{
+    background-color: lightblue;
+}
+.user-list-container .a-card.selected{
+    background-color: lightskyblue;
+}

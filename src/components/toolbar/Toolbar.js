@@ -18,7 +18,11 @@ class Toolbar extends Component {
                   <i class='fa fa-pencil' title='demo-Form component'></i> 
               </Link>
            </li>
-           <li className='menu-list-item balance'><i className="fa fa-inr" aria-hidden="true" title="My Balance"></i></li>
+           <li className='menu-list-item user'>
+              <Link to='/users'>
+                  <i className="fa fa-user-o" aria-hidden="true" title="Users"></i>
+              </Link>
+            </li>
            <li className='menu-list-item my-portfolio'><i className="fa fa-folder-o" aria-hidden="true" title='Portfolio'></i></li>
            <li className='menu-list-item settings'><i className="fa fa-cog" aria-hidden="true" title="More Tools"></i></li>
          </ul>

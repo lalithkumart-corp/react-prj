@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -30,6 +30,14 @@
 
 .page-content{
   padding-top: 50px;
-  padding-left: 40px;
+  padding-left: 50px;
+  padding-right: 15px;
   min-height: 700px;
+}
+
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
 }

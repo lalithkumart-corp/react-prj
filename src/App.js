@@ -12,6 +12,8 @@ import Toolbar from './components/toolbar/Toolbar';
 import Myhome from './components/home/Myhome';
 import Accounts from './components/accounts/Accounts';
 import FormComponent from './components/demo/FormComponent';
+import UserComponent from './components/user/UserComponent';
+
 import './App.css';
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -35,6 +37,7 @@ class App extends Component {
                   <Route exact path='/' component={Myhome} />
                   <Route path='/accounts' component={Accounts} />
                   <Route path='/demo/formcomp' component={FormComponent} />
+                  <Route path='/users' component={UserComponent} />
             </div>
           </div>
         </Router>

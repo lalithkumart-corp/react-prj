@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import _ from 'lodash';
 import axios from 'axios';
 import { Col, Row } from 'react-bootstrap';
